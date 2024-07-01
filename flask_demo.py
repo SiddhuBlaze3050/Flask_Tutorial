@@ -9,4 +9,4 @@ def hello_world():
 
 @app.route("/ping", methods = ['GET'])
 def pinger():
-    return "<p>Hello, I am underwater!</p>"
+    return "<p>Hello, I am Sid!</p>"
