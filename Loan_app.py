@@ -13,6 +13,9 @@ def hello_world():
 def pinger():
     return "<p>Hello, I am underwater!</p>"
 
+@app.route("/json", methods = ['GET'])
+def json_check():
+    return {"message": "Hi I am json!"}
 
 
 model_pickle = open("classifier.pkl", "rb")
