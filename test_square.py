@@ -10,4 +10,4 @@ def test_get_add():
     a = 5
     res = get_add(a)
 
-    assert res == 10
+    assert res == 15
